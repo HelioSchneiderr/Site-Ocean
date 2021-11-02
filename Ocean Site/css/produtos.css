@@ -1,0 +1,257 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+body {
+    background-color: #0A2F5B;
+}
+
+header {
+    background-color: #0A2F5B;
+    padding: 5px;
+    display: block;
+    
+}
+
+ a {
+    color: white;
+    transition: background 1s;
+  }
+  
+ a:hover{
+    width: 100px;
+    background-color: rgb(255, 253, 253);
+}
+
+header > p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+#menu ul {
+    padding:20px;
+    background-color:#F4F9FD;
+    list-style:none;
+    box-shadow: 0px -6px 16px 10px rgb(0, 0, 0, 0.3)
+    }
+
+#menu ul li { 
+    display: inline; 
+}
+
+#menu li {
+    font-size: 1.2em;
+    font-family: 'Inter', sans-serif;
+    padding: 10px;
+}
+
+div#ola hr {
+    margin: auto;
+    margin-top:10px ;
+    color: #0A2F5B;
+}
+
+div#ola h1 {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+}
+
+div#ola p {
+    font-family: 'Josefin Sans', sans-serif;
+    margin:auto;
+    text-align: justify;
+    width: 50%;
+    padding-left: 100px;
+    padding-right: 100px;
+    color:white;
+    text-align: center;
+    font-size: 1.9em;
+    margin-top: 10px;
+}
+
+/* box de pesquisa*/
+
+.search-box {
+    position: absolute;
+    height: 40px;
+    background-color:#F4F9FD ;
+    border-radius: 40px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.search-btn {
+    color: #0A2F5B;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:#F4F9FD ;
+    display: flex;
+    transition: 2s;
+
+}
+
+.search-text {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0px;
+    color: #0A2F5B;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+}
+
+.search-box:hover > .search-text{
+    width: 240px;
+    padding: 0 6px;
+}
+
+.search-box:hover > .search-btn{
+    background-color: white;
+}
+
+.conteiner-itens {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+/*Contatos Itens*/
+
+.whats-box {
+    position: absolute;
+    height: 40px;
+    background-color:#F4F9FD ;
+    border-radius: 40px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.whats-btn {
+    color: #0A2F5B;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:#25D366;
+    display: flex;
+    transition: 2s;
+
+}
+
+.whats-text {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0px;
+    color: #0A2F5B;
+    font-size: 1.5em;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+}
+
+.whats-box:hover > .whats-text{
+    width: 240px;
+    padding: 0 6px;
+}
+
+.whats-box:hover > .whats-btn{
+    background-color: white;
+}
+
+
+#contact {
+    color:#F4F9FD ;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/*Contato Itens FIM*/
+
+#itens {
+    display: block;
+    width: 250px;
+    height: 300px;
+    color: white;
+    font-size: 1.3em;
+    transition: 1.0s;
+    padding-left: 50px;
+    padding-top: 70px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+
+#itens img:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
+
+}    
+#itens p {
+    margin-left: 10px;
+}
+
+footer {
+    background-color:#F4F9FD;
+    margin-top: 100px; 
+}
+
+footer span {
+
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+    color: #0A2F5B;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+}
+
+.conteiner-footer{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;  
+}
+
+.conteiner-footer h1 {
+    font-size: 1.2em;
+    font-family: 'Dancing Script', cursive;
+}
+
+.conteiner-footer p {
+    margin-bottom: 20px;
+    color: #0A2F5B;
+    font-size: 1.0em;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+}

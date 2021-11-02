@@ -1,0 +1,247 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+body {
+    background-color: #0A2F5B;
+}
+
+header {
+    background-color: #0A2F5B;
+    padding: 5px;
+    display: block;
+    
+}
+
+ a {
+    color: white;
+    transition: background 1s;
+  }
+  
+ a:hover{
+    width: 100px;
+    background-color: rgb(255, 253, 253);
+}
+
+header > p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+#menu ul {
+    padding:20px;
+    background-color:#F4F9FD;
+    list-style:none;
+    box-shadow: 0px -6px 16px 10px rgb(0, 0, 0, 0.3)
+    }
+
+#menu ul li { 
+    display: inline; 
+}
+
+#menu li {
+    font-size: 1.2em;
+    font-family: 'Inter', sans-serif;
+    padding: 10px;
+}
+
+/* imagem do oceano e texto */
+
+#ocean {
+    width: 100%;
+    height: 600px;
+}
+
+#imgtext {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+    
+}
+
+#imgtext2 {
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+#imgtext2 h1 {
+    font-size: 7em;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+#imgtext2 h2 {
+    font-size: 3em;
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+
+}
+
+#imgtext h2 {
+    font-size: 1.0em;
+}
+
+div#ola hr {
+    margin: auto;
+    margin-top:10px ;
+    color: #0A2F5B;
+}
+
+div#ola h1 {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+}
+
+div#ola p {
+    font-family: 'Inter', sans-serif;
+    margin:auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    color:white;
+    text-align: center;
+    font-size: 1.9em;
+    margin-top: 10px;
+}
+
+
+.conteiner-itens {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+#itens {
+    display: block;
+    width: 250px;
+    height: 300px;
+    color: white;
+    font-size: 1.3em;
+    transition: 1.0s;
+    padding-left: 50px;
+    padding-top: 70px;
+    
+}
+
+#itens img:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
+
+}    
+#itens p {
+    margin-left: 10px;
+}
+
+footer {
+    background-color:#F4F9FD;
+    margin-top: 100px; 
+}
+
+footer span {
+
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+    color: #0A2F5B;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+}
+
+
+.conteiner-footer{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.conteiner-footer h1 {
+    font-size: 1.2em;
+    font-family: 'Dancing Script', cursive;
+}
+
+.conteiner-footer p {
+    color: #0A2F5B;
+    font-size: 1.0em;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+}
+
+/*Sobre CSS Começo*/
+ 
+.conteiner-equipe {
+    display: flex;
+    justify-self: center;
+    margin:auto;
+    margin-top: 5%;
+    width: 70%;
+    flex-flow: wrap;
+    flex-wrap: wrap;
+    
+}
+
+#img-empresa {
+    box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.3);
+    width: 100%;
+}
+
+#text-crew {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    padding-left: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: justify;
+    width: 400px;
+    
+    
+}
+
+#text-crew h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.8em;
+    padding-bottom: 10px;
+}
+
+    
+
+/*Sobre CSS FIM*/
+
+@media only screen and (max-width: 600px){
+    
+    div#ola p {
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+
+
+}
+
+
+
+
+
